@@ -73,8 +73,10 @@ namespace QuickShort
                 {
                     //swap the elements at index i with the element at index j
                     swap(i, j);
+                    mov_count++;
                 }
             }
+
         }
     }
 }
