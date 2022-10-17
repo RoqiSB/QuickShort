@@ -68,6 +68,12 @@ namespace QuickShort
                     cmp_count++;
                 }
                 cmp_count++;
+                while ((arr[j] > pivot) && (j >= low))
+                {
+                    j--;
+                    cmp_count++;
+                }
+                cmp_count++;
 
                 if (i < j) //if the greater element is on the left of the element
                 {
